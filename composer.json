@@ -1,0 +1,41 @@
+{
+    "name": "dimer47/backpack-server-export",
+    "description": "Server-side full export for Backpack CRUD with active filters, async support via queue jobs.",
+    "keywords": ["laravel", "backpack", "export", "server-side", "crud", "xlsx", "csv", "markdown"],
+    "license": "MIT",
+    "version": "1.0.0",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0 || ^12.0",
+        "illuminate/queue": "^11.0 || ^12.0",
+        "backpack/crud": "^6.0 || ^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0 || ^10.0",
+        "phpunit/phpunit": "^11.0",
+        "phpoffice/phpspreadsheet": "^1.29 || ^2.0"
+    },
+    "suggest": {
+        "phpoffice/phpspreadsheet": "Required for XLSX export format (^1.29 || ^2.0)"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dimer47\\BackpackServerExport\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dimer47\\BackpackServerExport\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dimer47\\BackpackServerExport\\ServerExportServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
