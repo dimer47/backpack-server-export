@@ -1,6 +1,6 @@
 # 📦 Backpack Server Export
 
-![PHP](https://img.shields.io/badge/PHP-8.2%2B-777BB4?style=flat-square&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-11%20%7C%2012-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![Backpack](https://img.shields.io/badge/Backpack-6%20%7C%207-blue?style=flat-square) ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+![PHP](https://img.shields.io/badge/PHP-8.2%2B-777BB4?style=flat-square&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-10%20%7C%2011%20%7C%2012%2B-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![Backpack](https://img.shields.io/badge/Backpack-6%20%7C%207-blue?style=flat-square) ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 > Server-side full export for [Backpack for Laravel](https://backpackforlaravel.com/) CRUD panels with active filters, search, sort, and async queue support.
 
@@ -289,7 +289,7 @@ Available keys:
 | Dependency | Version |
 |-----------|---------|
 | PHP | ^8.2 |
-| Laravel | ^11.0 \| ^12.0 |
+| Laravel | ^10.0 \| ^11.0 \| ^12.0 \| ^13.0 |
 | Backpack CRUD | ^6.0 \| ^7.0 |
 | PhpSpreadsheet | ^1.29 \| ^2.0 *(optional, for XLSX)* |
 
